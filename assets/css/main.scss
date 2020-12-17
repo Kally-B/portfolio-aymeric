@@ -2,3 +2,16 @@
 ---
 @import "bootstrap";
 @import "main";
+
+.hero-banner {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+	color: #eeeeee;
+}
+
+#hero-banner-text {
+	  padding-top: 40vh;
+}
