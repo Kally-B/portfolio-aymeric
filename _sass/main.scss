@@ -1,6 +1,14 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Imprima&family=Shadows+Into+Light+Two&display=swap');
+
+// Colors
+$black: #0E0A06;
+$red: #D92027;
+
+// Default Settings
 $backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyColor: #0E0A06;
+$bodyFont: 'Imprima', sans-serif;
 
 body {
   background: $backgroundColor;

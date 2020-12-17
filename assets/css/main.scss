@@ -9,9 +9,46 @@
 	background-position: center;
 	height: 100vh;
 	text-align: center;
-	color: #eeeeee;
+	color: #EEEEEE;
 }
 
 #hero-banner-text {
-	  padding-top: 40vh;
+	padding-top: 40vh;
+	text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+	h1 {
+		font-size: 64px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	button {
+		font-size: 24px;
+		font-family: 'Bebas Neue', cursive;
+		border-color: $red;
+		background-color: $red;
+	}
 }
+
+.navbar {
+	background-color: $black; 
+	font-size: 24px;
+	.navbar-brand {
+		color: #EEEEEE;
+		font-family: 'Shadows Into Light Two', cursive;
+	}
+	a {
+		color: #EEEEEE;
+		font-family: 'Bebas Neue', cursive;	
+	}
+	.active {
+		border-bottom: 5px solid $red;
+	}
+}
+
+
+.navbar-toggler {
+	color: rgb(254,255,255);
+    border-color: rgb(255,255,255);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ }

@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar sticky-top navbar-expand-lg">
   <div class="container">
 
     <a class="navbar-brand" href="#">Aymeric BRG</a>
@@ -8,9 +8,20 @@
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        {% for item in site.data.navbar %}
+<!--         {% for item in site.data.navbar %}
         <a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a>
-        {% endfor %}  
+        {% endfor %}  -->
+
+      {% for item in site.data.navbar %}
+          {% assign class = 'nav-item nav-link' %}
+          {% if page.link contains item.link %}
+              {% assign class = 'nav-item nav-link active' aria-current= 'page' %}
+          {% endif %}
+          <a href="{{ item.link }}" class="{{ class }}">
+              {{ item.name }}
+          </a>
+      {% endfor %}
+
       </div>
     </div>
 
