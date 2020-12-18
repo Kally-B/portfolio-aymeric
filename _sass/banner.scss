@@ -1,0 +1,25 @@
+.hero-banner {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+	color: #EEEEEE;
+}
+
+#hero-banner-text {
+	padding-top: 35vh;
+	text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+	font-size: 24px;
+	h1 {
+		font-size: 64px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	button {
+		font-family: 'Bebas Neue', cursive;
+		font-size: 24px;
+		color: white;
+		border-color: $red;
+		background-color: $red;
+	}
+}
