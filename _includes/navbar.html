@@ -8,15 +8,14 @@
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-<!--         {% for item in site.data.navbar %}
-        <a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a>
-        {% endfor %}  -->
 
       {% for item in site.data.navbar %}
           {% assign class = 'nav-item nav-link' %}
-          {% if page.link contains item.link %}
+          
+          {% if page.link == item.link %}
               {% assign class = 'nav-item nav-link active' aria-current= 'page' %}
           {% endif %}
+          
           <a href="{{ item.link }}" class="{{ class }}">
               {{ item.name }}
           </a>

@@ -15,3 +15,13 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
 }
+
+.content {
+	min-height: calc(100vh - 76px - 80px);
+}
+
+// Import Component Stylesheet
+@import 'banner';
+@import 'navbar';
+@import 'footer';
+

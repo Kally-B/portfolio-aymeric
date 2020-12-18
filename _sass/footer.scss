@@ -1,0 +1,16 @@
+.footer {
+	height: 80px;
+	background-color: $black;
+	color: white;
+	.footer-links {
+		margin-bottom: 5px;
+		a {
+			color: white;
+			margin-right: 15px;
+			font-size: 20px;
+		}
+	}
+	.footer-links a:hover, .fa-heart  {
+		color: $red;
+	}
+}
