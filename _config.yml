@@ -14,6 +14,8 @@ sass:
   load_paths:
       - _sass
       -  /Users/kallyannybun/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bootstrap-4.3.1/assets/stylesheets # bundle info bootstrap
+  sass_dir: _sass 
+  style: :compressed
 
 plugins:
   - jekyll-autoprefixer
