@@ -1,4 +1,4 @@
-title: "" # the name of your site, e.g. ACME Corp.
+title: Aymeric Portfolio # the name of your site, e.g. ACME Corp.
 #tagline: ""
 # email: 
 # description: >- # this means to ignore newlines until "baseurl:"
@@ -6,7 +6,7 @@ title: "" # the name of your site, e.g. ACME Corp.
 # author: name
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-google_analytics: UA-111111111-1
+# google_analytics: UA-111111111-1
 
 # more on https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 
