@@ -10,12 +10,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # more on https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 
-sass:
-  # load_paths:
-  #     - _sass
-  #     -  /Users/kallyannybun/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bootstrap-4.3.1/assets/stylesheets # bundle info bootstrap
-  sass_dir: _sass 
-  style: :compressed
+# sass:
+#   # load_paths:
+#   #     - _sass
+#   #     -  /Users/kallyannybun/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bootstrap-4.3.1/assets/stylesheets # bundle info bootstrap
+#   sass_dir: _sass 
+#   style: compressed
 
 plugins:
   - jekyll-autoprefixer
