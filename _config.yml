@@ -4,7 +4,7 @@ title: Aymeric Portfolio # the name of your site, e.g. ACME Corp.
 # description: >- # this means to ignore newlines until "baseurl:"
 # Add description here
 # author: name
-url: kally-b.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: "kally-b.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /portfolio-aymeric # the subpath of your site, e.g. /blog
 # google_analytics: UA-111111111-1
 
