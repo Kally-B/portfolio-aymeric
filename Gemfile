@@ -2,10 +2,10 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+# git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # Gemfile
-gem "jekyll", '~> 4.2.0'
+gem "github-pages"
 gem 'bootstrap', '~> 4.3.1'
 
 group :jekyll_plugins do
