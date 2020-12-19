@@ -4,8 +4,8 @@ title: Aymeric Portfolio # the name of your site, e.g. ACME Corp.
 # description: >- # this means to ignore newlines until "baseurl:"
 # Add description here
 # author: name
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/portfolio-aymeric" # the subpath of your site, e.g. /blog
+url: http://kally-b.github.io//portfolio-aymeric # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: http://kally-b.github.io//portfolio-aymeric # the subpath of your site, e.g. /blog
 # google_analytics: UA-111111111-1
 
 # more on https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -13,9 +13,7 @@ baseurl: "/portfolio-aymeric" # the subpath of your site, e.g. /blog
 sass:
   sass_dir: _sass 
   style: compressed
-  load_paths:
-      - _sass
-      -  /Users/kallyannybun/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bootstrap-4.3.1/assets/stylesheets # bundle info bootstrap
+  load_paths: /Users/kallyannybun/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bootstrap-4.3.1/assets/stylesheets # bundle info bootstrap
 
 plugins:
   - jekyll-autoprefixer
