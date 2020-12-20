@@ -17,7 +17,17 @@ body {
 }
 
 .content {
-	min-height: calc(100vh - 76px - 80px);
+	min-height: calc(100vh - 60px - 80px);
+}
+
+.about-content {
+	padding: 30px 0;
+}
+
+#about-img {
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
 }
 
 // Import Component Stylesheet
