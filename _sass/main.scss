@@ -24,6 +24,37 @@ body {
 	padding: 30px 0;
 }
 
+.contact-content {
+	padding: 60px 0 30px;
+	text-align: center;
+	h1 {
+		font-family: 'Bebas Neue', cursive;
+	}
+	p {
+		padding: 30px 0 15px;
+	}
+	button {
+		padding: 5px 15px;
+		font-family: 'Bebas Neue', cursive;
+		font-size: 20px;
+		color: white;
+		border-color: $red;
+		background-color: $red;
+		border: 2px solid $red;
+		&:hover {
+			color: $red;
+			background-color: white;
+		}
+	}
+	input, textarea {
+		background-color: #F8FAFC;
+		border-color: #828282;
+	}
+	.form-control::-webkit-input-placeholder {
+  		color: #BDBDBD;
+	}
+}
+
 #about-img {
 	width: 100%;
 	height: auto;
