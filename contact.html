@@ -13,10 +13,16 @@ link: /portfolio-aymeric/contact
 		</div>
 		<div class="row justify-content-center">
 			<div class="contact-form col-9 col-lg-6">
-				<input type="text" class="form-control mb-4" placeholder="Your name*">
-				<input type="email" class="form-control mb-4" placeholder="Your email*">
-				<textarea class="form-control mb-4" rows="5" placeholder="Your message*"></textarea>
-				<button type="submit" class="btn">Send</button>
+		     <script type="text/javascript">var submitted=false;</script>
+		     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='contact.html';}"></iframe>
+
+				<form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfnK27_orqePjHqnp9S5D54TXdIBivTiboA0SiI-GcadPAP6w/formResponse"  method="post" target="hidden_iframe"
+    onsubmit="submitted=true;">
+					<input maxlength="30" name="entry.1562709118" type="text" class="form-control mb-4" placeholder="Your name*" required>
+					<input name="emailAddress" type="email" class="form-control mb-4" placeholder="Your email*" required>
+					<textarea maxlength="500" name="entry.1078103865" class="form-control mb-4" rows="5" placeholder="Your message*" required></textarea>
+					<button type="submit" class="btn">Send</button>
+				</form>
 			</div>
 			
 		</div>
