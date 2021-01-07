@@ -1,0 +1,38 @@
+.portfolio-cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 80%;
+	justify-content: space-between;
+}
+
+.project-card {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+	.portfolio-cards {
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 992px) {
+	.portfolio-cards {
+		justify-content: space-between;
+	}
+	.project-card, img {
+		height: 300px;
+		width: 300px;
+	}
+}
+
+@media (max-width: 768px) {
+	.portfolio-cards {
+		justify-content: center;
+	}
+	.project-card, img {
+		height: 70vw;
+		width: 70vw;
+	}
+}
+
+

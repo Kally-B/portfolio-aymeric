@@ -22,6 +22,11 @@ body {
 
 .about-content {
 	padding: 30px 0;
+	#about-img {
+		width: 100%;
+		height: auto;
+		padding-bottom: 20px;
+	}
 }
 
 .contact-content {
@@ -55,14 +60,13 @@ body {
 	}
 }
 
-#about-img {
-	width: 100%;
-	height: auto;
-	padding-bottom: 20px;
+.portfolio-content {
+	padding: 60px 0 30px;
 }
 
 // Import Component Stylesheet
 @import 'banner';
 @import 'navbar';
 @import 'footer';
+@import 'cards';
 
