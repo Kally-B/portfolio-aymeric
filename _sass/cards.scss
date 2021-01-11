@@ -40,7 +40,7 @@
 	.portfolio-cards {
 		justify-content: space-between;
 	}
-	.project-card, img {
+	.project-card > img {
 		height: 300px;
 		width: 300px;
 	}
@@ -50,7 +50,7 @@
 	.portfolio-cards {
 		justify-content: center;
 	}
-	.project-card, img {
+	.project-card > img {
 		height: 70vw;
 		width: 70vw;
 	}
