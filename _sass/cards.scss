@@ -7,7 +7,28 @@
 
 .project-card {
 	margin-bottom: 30px;
+	.card-img-overlay {
+		top: auto;
+		visibility: hidden;
+	}
+	&:hover {
+		.card-img-overlay {
+		background-color: rgba(255,255,255,0.2);
+		visibility: visible;
+			h2 {
+				font-size: 20px;
+				font-family: 'Bebas Neue', cursive;
+			}
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+	.modal-dialog > img {
+		margin: auto;
+	}
 }
+
 
 @media (max-width: 1200px) {
 	.portfolio-cards {
