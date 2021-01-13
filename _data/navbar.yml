@@ -1,8 +1,8 @@
 - name: Home
-  link: /portfolio-aymeric/
+  link: /
 - name: About
-  link: /portfolio-aymeric/about
+  link: /about
 - name: Portfolio
-  link: /portfolio-aymeric/portfolio
+  link: /portfolio
 - name: Contact
-  link: /portfolio-aymeric/contact
+  link: /contact
