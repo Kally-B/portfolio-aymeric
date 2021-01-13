@@ -1,17 +1,34 @@
 .footer {
-	padding-top: 30px;
-	height: 90px;
+	padding: 30px 0;
 	background-color: $black;
 	color: white;
+	.footer-content {
+		display: flex;
+		justify-content: space-between;
+	}
 	.footer-links {
-		margin-bottom: 5px;
 		a {
 			color: white;
-			margin-right: 15px;
 			font-size: 20px;
+			margin-right: 15px;
 		}
 	}
 	.footer-links a:hover, .fa-heart  {
 		color: $red;
+	}
+}
+
+@media (max-width: 576px) {
+	.footer {
+		text-align: center;
+		.footer-content {
+			flex-direction: column;
+		}
+		.footer-links {
+			margin-left: 15px;
+		}
+		.footer-copyright {
+			padding-top: 15px;
+		}
 	}
 }

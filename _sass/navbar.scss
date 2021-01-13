@@ -1,20 +1,22 @@
 .navbar {
 	background-color: $black; 
 	font-size: 24px;
-	padding: 10px 0;
 	.navbar-brand {
 		color: #EEEEEE;
-		font-family: 'Shadows Into Light Two', cursive;
-		padding: 15px;
+		font-family: 'Reey';
+		padding: 15px 0;
+		margin-bottom: 10px;
 	}
 	a {
 		color: #EEEEEE;
 		font-family: 'Bebas Neue', cursive;	
+		letter-spacing: 1px;
 	}
 	.active {
 		border-bottom: 5px solid $red;
 	}
 }
+
 
 .navbar-expand-lg .navbar-nav .nav-link {
 	margin: 5px 0 5px 25px;
@@ -33,10 +35,13 @@
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
  }
 
- @media (min-width: 992px) {
+ @media (max-width: 992px) {
 	.navbar .navbar-brand {
-		padding: 0px;
+		padding-left: 15px;
  	}
+	.navbar-nav {
+		margin-bottom: 5px;
+	}
  }
 
  @media (max-width: 1199.98px) {
