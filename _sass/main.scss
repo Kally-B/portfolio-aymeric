@@ -1,5 +1,8 @@
-// Import Google Fonts
+// Import Fonts
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Imprima&family=Shadows+Into+Light+Two&display=swap');
+@font-face {
+  font-family: "Reey";
+}
 
 // Colors
 $black: #0E0A06;
@@ -17,11 +20,17 @@ body {
 }
 
 .content {
-	min-height: calc(100vh - 71px - 90px);
+	min-height: calc(100vh - 78px - 90px);
 }
 
+// Import Component Stylesheet
+@import 'banner';
+@import 'navbar';
+@import 'footer';
+@import 'cards';
+
 .about-content {
-	padding: 30px 0;
+	padding: 50px 0 40px;
 	#about-img {
 		width: 100%;
 		height: auto;
@@ -30,10 +39,11 @@ body {
 }
 
 .contact-content {
-	padding: 60px 0 30px;
+	padding: 60px 0 40px;
 	text-align: center;
 	h1 {
 		font-family: 'Bebas Neue', cursive;
+		letter-spacing: 1px;
 	}
 	p {
 		padding: 30px 0 15px;
@@ -42,6 +52,7 @@ body {
 		padding: 5px 15px;
 		font-family: 'Bebas Neue', cursive;
 		font-size: 20px;
+		letter-spacing: 1px;
 		color: white;
 		border-color: $red;
 		background-color: $red;
@@ -64,9 +75,4 @@ body {
 	padding: 60px 0 30px;
 }
 
-// Import Component Stylesheet
-@import 'banner';
-@import 'navbar';
-@import 'footer';
-@import 'cards';
 
