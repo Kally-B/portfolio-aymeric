@@ -1,9 +1,7 @@
 title: Mrik B. # the name of your site, e.g. ACME Corp.
 tagline: Mrik B. - Content Creator
 # email: 
-description: Digital Communication, Photo & Video - I create, edit and promote meaningful contents. 
-author: 
-  name: Aymeric Bourguilleau
+description: Digital Communication, Photography & Videography - My work is to create, edit and promote meaningful contents, photos and videos. 
 baseurl: / # the subpath of your site, e.g. /blog
 url: "https://mrikb.com" # the base hostname & protocol for your site, e.g. http://example.com
 # google_analytics: UA-111111111-1
