@@ -1,9 +1,10 @@
-title: Aymeric Portfolio # the name of your site, e.g. ACME Corp.
+title: Mrik B. # the name of your site, e.g. ACME Corp.
 #tagline: ""
 # email: 
-# description: >- # this means to ignore newlines until "baseurl:"
-# Add description here
-# author: name
+description: >- # this means to ignore newlines until "baseurl:"
+Digital Communication, Photography & Videography - My work is to create, edit and promote meaningful contents, photos and videos. 
+image: ./assets/img/mrik-b-og.jpg
+author: Aymeric Bourguilleau
 url: "mrikb.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: / # the subpath of your site, e.g. /blog
 # google_analytics: UA-111111111-1
