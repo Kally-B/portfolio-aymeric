@@ -14,14 +14,22 @@ link: /
 </div>
 
 <script>
-    var a = document.querySelector('.hero-banner');
-    window.addEventListener("load", function () {
-        if (!a) return !1;
-        var b = a.getAttribute("data-src"),
-        img = new Image;
-        img.src = b;
-        img.onload = function () {
-            a.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(' + b + ')';
-        };
-    });
+    window.onload = function() {
+      
+      var placeholder = document.querySelector('.hero-banner');
+      
+      var imgSm = new Image();
+      imgSm.src = './assets/img/home/hero-banner-lisboa-low.jpg';
+      imgSm.onload = function () {
+       placeholder.classList.add('ld-sm');
+      };
+      
+      var imgLg = new Image();
+      src = placeholder.getAttribute("data-src");
+      imgLg.src = src;
+      imgLg.onload = function () {
+        placeholder.classList.add('ld-lg');
+        placeholder.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(' + src + ')';
+      };
+    }
 </script>

@@ -1,10 +1,21 @@
 .hero-banner {
-	// background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/home/hero-banner-lisboa-low.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 	text-align: center;
-	color: #EEEEEE;
+	color: #EEEEEE;	
+	opacity: 0.8;
+	transition: opacity 1s linear;
+}
+
+.ld-sm {
+	transition: opacity 1s linear;
+	opacity: 0.9;
+}
+
+.ld-lg {
+	transition: opacity 1s linear;
+	opacity: 1;
 }
 
 #hero-banner-text {
