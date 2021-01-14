@@ -1,12 +1,15 @@
 title: Mrik B. # the name of your site, e.g. ACME Corp.
-#tagline: ""
+tagline: Mrik B. - Content Creator
 # email: 
-description: Digital Communication, Photography & Videography - My work is to create, edit and promote meaningful contents, photos and videos. 
-image: "./assets/img/mrik-b-og.jpg"
-author: Aymeric Bourguilleau
+description: Digital Communication, Photo & Video - I create, edit and promote meaningful contents. 
+author: 
+  name: Aymeric Bourguilleau
 baseurl: / # the subpath of your site, e.g. /blog
-url: "mrikb.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mrikb.com" # the base hostname & protocol for your site, e.g. http://example.com
 # google_analytics: UA-111111111-1
+twitter:
+  username: mrik_b
+  card: summary
 
 # more on https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 
