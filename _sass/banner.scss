@@ -29,10 +29,10 @@
 		font-size: 24px;
 	}*/
 	h1 {
-		font-size: 56px;
+		font-size: 64px;
 		font-family: 'Bebas Neue', cursive;
 		letter-spacing: 1px;
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 	}
 	button {
 		font-family: 'Bebas Neue', cursive;
@@ -43,8 +43,9 @@
 		background-color: $red;
 		border: 2px solid $red;
 		&:hover {
-			color: $red;
-			background-color: white;
+			color: white;
+			background-color: #ae1a1f;
+			border-color: #ae1a1f;
 		}
 	}
 }
